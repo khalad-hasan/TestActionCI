@@ -31,4 +31,4 @@ jobs:
     - name: Run unit tests
       # Search for all Python files ending in _test to run
       run: |
-          python -m unittest discover -p "TestModule1.py"
+          python -m unittest discover -p TestModule1.py
